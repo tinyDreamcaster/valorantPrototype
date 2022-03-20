@@ -590,7 +590,7 @@ template {
 
 .agent:hover,
 .agent:focus {
-  filter: contrast(0.9);
+  filter: contrast(0.5);
   cursor: pointer;
 }
 
@@ -780,7 +780,7 @@ template {
 
 .skill__playVideoHero:hover,
 .skill__playVideoHero:focus {
-  filter: contrast(0.9);
+  filter: contrast(0.5);
   cursor: pointer;
 }
 
