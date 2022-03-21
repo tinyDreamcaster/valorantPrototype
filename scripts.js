@@ -186,7 +186,7 @@ let playVideoHeroImg = document.querySelector(".skill__playVideoHeroImg");
 function handleTabletChange2662px(e) {
   if (e.matches) {
     agentMovie.setAttribute("width", "1260");
-    agentMovie.setAttribute("heigh", "1015");
+    agentMovie.setAttribute("height", "1015");
     playVideoHeroImg.setAttribute("width", "100");
     playVideoHeroImg.setAttribute("height", "100");
   }
@@ -194,7 +194,7 @@ function handleTabletChange2662px(e) {
     playVideoHeroImg.setAttribute("width", "21");
     playVideoHeroImg.setAttribute("height", "18");
     agentMovie.setAttribute("width", "1560");
-    agentMovie.setAttribute("heigh", "1315");
+    agentMovie.setAttribute("height", "1315");
   }
 }
 mediaQuery2662px.addListener(handleTabletChange2662px)
@@ -204,11 +204,11 @@ const mediaQuery1920px = window.matchMedia('(max-width: 1920px)')
 function handleTabletChange1920px(e) {
   if (e.matches) {
     agentMovie.setAttribute("width", "860");
-    agentMovie.setAttribute("heigh", "715");
+    agentMovie.setAttribute("height", "715");
   }
   else {
     agentMovie.setAttribute("width", "1260");
-    agentMovie.setAttribute("heigh", "1015");
+    agentMovie.setAttribute("height", "1015");
   }
 }
 mediaQuery1920px.addListener(handleTabletChange1920px);
@@ -218,11 +218,11 @@ const mediaQuery1366px = window.matchMedia('(max-width: 1366px)')
 function handleTabletChange1366px(e) {
   if (e.matches) {
     agentMovie.setAttribute("width", "660");
-    agentMovie.setAttribute("heigh", "515");
+    agentMovie.setAttribute("height", "515");
   }
   else {
     agentMovie.setAttribute("width", "860");
-    agentMovie.setAttribute("heigh", "715");
+    agentMovie.setAttribute("height", "715");
   }
 }
 mediaQuery1366px.addListener(handleTabletChange1366px);
