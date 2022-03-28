@@ -377,6 +377,7 @@ template {
 }
 
 .navigationList>li {
+  position: relative;
   margin-right: 4.375rem;
   cursor: pointer;
 }
@@ -422,6 +423,7 @@ template {
 .navigationList__dropDownList {
   z-index: 10;
   position: absolute;
+  top: 1.4rem;
   width: 0;
   height: 0;
   padding: 0;
